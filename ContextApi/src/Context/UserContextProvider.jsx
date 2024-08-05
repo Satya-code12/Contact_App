@@ -10,7 +10,7 @@ const UserContextProvider = ({children}) =>{
 
     // the provider component is responsible for making the context data available to any component that it wraps around
 
-    <UserContext.Provider value={{user, setUser}}>
+    <UserContext.Provider value={{user, setUser}}> 
       {children}
     </UserContext.Provider>
    )
